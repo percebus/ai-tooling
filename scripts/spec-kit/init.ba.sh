@@ -4,7 +4,7 @@ set -e
 set -x
 
 cd repositories
-specify init spec-kit --integration copilot
+specify init spec-kit --integration copilot --script sh
 cd ..
 
 set +x
