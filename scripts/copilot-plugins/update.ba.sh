@@ -3,9 +3,10 @@
 set -e
 set -x
 
-shopt -s dotglob
-mv repositories/copilot-plugins/plugins/** .github/plugins
-shopt -u dotglob
+for dir in repositories/copilot-plugins/plugins/*/; do
+  name=$(basename "$dir")
+  mv "${dir}" plugins/copilot-plugins-${name}
+done
 
 set +x
 set +e

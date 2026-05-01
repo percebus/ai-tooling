@@ -11,9 +11,6 @@ mkdir -p ./.github/agents
 rm -rf ./.github/instructions
 mkdir -p ./.github/instructions
 
-rm -rf ./.github/plugins
-mkdir -p ./.github/plugins
-
 rm -rf ./.github/prompts
 mkdir -p ./.github/prompts
 
@@ -22,6 +19,9 @@ mkdir -p ./.github/skills
 
 rm -rf ./.github/workflows
 mkdir -p ./.github/workflows
+
+rm -rf ./plugins
+mkdir -p plugins
 
 set +x
 set +e
