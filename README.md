@@ -17,4 +17,4 @@ What if we bring ALL the productivity AI tooling into 1 single place?
   - [`awesome-copilot`](https://github.com/github/awesome-copilot)
   - [`copilot-plugins`](https://github.com/github/copilot-plugins)
 - [`microsoft`](https://github.com/microsoft)
-  - [`hve-core`](https://github.com/hve-core)
+  - [`hve-core`](https://github.com/microsoft/hve-core)
