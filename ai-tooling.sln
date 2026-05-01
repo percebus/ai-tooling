@@ -1,0 +1,41 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{9C6578E7-E4FE-79BB-1635-F363CC1E80DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "skills", "skills", "{FB68EC01-E463-147A-03A9-4B27A70C8D3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "winmd-api-search", "winmd-api-search", "{8D537954-A3C1-D57A-1CEB-A913AD043E74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{E2D8AB74-EC8C-5697-5836-5562C3DA0833}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cache-generator", "cache-generator", "{3FB4790D-FDA3-5110-9766-86D0E5575461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheGenerator", ".github\skills\winmd-api-search\scripts\cache-generator\CacheGenerator.csproj", "{D788A6FD-6D7D-6402-341F-F44216D03B4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D788A6FD-6D7D-6402-341F-F44216D03B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D788A6FD-6D7D-6402-341F-F44216D03B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D788A6FD-6D7D-6402-341F-F44216D03B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D788A6FD-6D7D-6402-341F-F44216D03B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB68EC01-E463-147A-03A9-4B27A70C8D3A} = {9C6578E7-E4FE-79BB-1635-F363CC1E80DD}
+		{8D537954-A3C1-D57A-1CEB-A913AD043E74} = {FB68EC01-E463-147A-03A9-4B27A70C8D3A}
+		{E2D8AB74-EC8C-5697-5836-5562C3DA0833} = {8D537954-A3C1-D57A-1CEB-A913AD043E74}
+		{3FB4790D-FDA3-5110-9766-86D0E5575461} = {E2D8AB74-EC8C-5697-5836-5562C3DA0833}
+		{D788A6FD-6D7D-6402-341F-F44216D03B4C} = {3FB4790D-FDA3-5110-9766-86D0E5575461}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2946490-5C74-4B4E-A00E-6FB9171E32B5}
+	EndGlobalSection
+EndGlobal
