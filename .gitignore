@@ -3,6 +3,7 @@ tmp/
 
 /repositories/
 
+.obsidian/graph.json
 
 ##########################################
 ### Obsidian/NotesAndCoreConfiguration ### SRC: https://github.com/github/gitignore/blob/1046d8fba6b42d367da6314c934cddb6bfe5662e/community/Obsidian/NotesAndCoreConfiguration.gitignore
