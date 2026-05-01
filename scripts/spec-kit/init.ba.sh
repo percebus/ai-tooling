@@ -4,7 +4,7 @@ set -e
 set -x
 
 cd repositories
-specify init spec-kit --integration copilot --no-git
+specify init spec-kit --integration copilot
 cd ..
 
 set +x
