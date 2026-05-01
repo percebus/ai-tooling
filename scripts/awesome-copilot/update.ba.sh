@@ -2,6 +2,7 @@
 
 set -e
 set -x
+set -f
 
 # FIXME do a for loop
 
@@ -11,5 +12,6 @@ mv repositories/awesome-copilot/plugins/** .github/plugins
 mv repositories/awesome-copilot/skills/** .github/skills
 cp -r repositories/awesome-copilot/workflows/** .github/workflows --force
 
+set +f
 set +x
 set +e

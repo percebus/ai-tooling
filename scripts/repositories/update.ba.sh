@@ -9,5 +9,7 @@ bash scripts/pip/upgrade.ba.sh
 rm -rf repositories
 gil clone
 
+bash scripts/spec-kit/init.ba.sh
+
 set +x
 set +e

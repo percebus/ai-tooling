@@ -12,6 +12,7 @@ rm -rf .github/instructions
 mkdir -p .github/instructions
 
 rm -rf .github/plugins
+mkdir -p .github/plugins
 
 rm -rf .github/prompts
 mkdir -p .github/prompts
