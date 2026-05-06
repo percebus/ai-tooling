@@ -12,6 +12,9 @@ What if we bring ALL the productivity AI tooling into 1 single place?
 
 ## Resources
 
+- [GitHub Copilot Customization Handbook](https://copilot-academy.github.io/workshops/copilot-customization/copilot_customization_handbook)
+- [Finding and installing plugins for GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/plugins-finding-installing)
+
 ### GitHub
 
 - [`github`](https://github.com/github)
