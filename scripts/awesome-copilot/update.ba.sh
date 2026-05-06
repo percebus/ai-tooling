@@ -7,7 +7,9 @@ set -x
 
 cp -r repositories/awesome-copilot/instructions/** .github/instructions --force
 cp -r repositories/awesome-copilot/agents/** .github/agents --force
-cp -r repositories/awesome-copilot/workflows/** .github/workflows --force
+
+# WARNING: might cost money
+# cp -r repositories/awesome-copilot/workflows/** .github/workflows --force
 
 shopt -s dotglob
 mv repositories/awesome-copilot/skills/** .github/skills
