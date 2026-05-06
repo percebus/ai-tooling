@@ -13,10 +13,5 @@ shopt -s dotglob
 mv repositories/awesome-copilot/skills/** .github/skills
 shopt -u dotglob
 
-for dir in repositories/awesome-copilot/plugins/*/; do
-  name=$(basename "$dir")
-  mv "${dir}" plugins/awesome-copilot-${name}
-done
-
 set +x
 set +e

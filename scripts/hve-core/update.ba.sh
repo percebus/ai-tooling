@@ -10,11 +10,5 @@ mv repositories/hve-core/.github/agents/** .github/agents
 mv repositories/hve-core/.github/skills/** .github/skills
 shopt -u dotglob
 
-for dir in repositories/hve-core/plugins/*/; do
-  name=$(basename "$dir")
-  mv "${dir}" plugins/hve-core-${name}
-done
-
-
 set +x
 set +e
