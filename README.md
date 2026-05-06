@@ -8,6 +8,8 @@ What if we bring ALL the productivity AI tooling into 1 single place?
 - `skills`
 - `plugins`
 
+![CoPilot CLI](./assets/img/copilot_CLI.png)
+
 ## Resources
 
 ### GitHub
