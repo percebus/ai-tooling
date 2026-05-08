@@ -8,6 +8,9 @@ set -x
 rm -rf ./.github/agents
 mkdir -p ./.github/agents
 
+rm -rf ./.github/hooks
+mkdir -p ./.github/hooks
+
 rm -rf ./.github/instructions
 mkdir -p ./.github/instructions
 
